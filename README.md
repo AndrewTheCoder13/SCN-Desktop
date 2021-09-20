@@ -1,1 +1,2 @@
-# ThesisProjectSkillBox
+# ScoolNeedsOrganizer Desktop
+Программа нацеленная на помощь школьникам в организации задача связанных с школьным процессом
