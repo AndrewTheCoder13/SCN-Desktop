@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Program.MainFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="2765" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-20187"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="a1c82" binding="topBanner" layout-manager="FlowLayout" hgap="2" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-20442"/>
+          <foreground color="-20442"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="33927" binding="testsAndNeedsForTommorow" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-20442"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3c1e6" binding="nearestTest" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <background color="-20442"/>
+              <preferredSize width="450" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="65099" binding="label" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-20442"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2f636" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <enabled value="true"/>
+                      <font name="Arial Narrow" size="22" style="3"/>
+                      <foreground color="-60905"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value="Ближайшие контрольные работы"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f4062" binding="testNamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9f108" class="javax.swing.JLabel" binding="testNameLabel">
+                    <constraints/>
+                    <properties>
+                      <background color="-12828863"/>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value=" Контрольная: "/>
+                    </properties>
+                  </component>
+                  <component id="49562" class="javax.swing.JLabel" binding="testName">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="65203" binding="testDate" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ff4a6" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value=" Дата:                "/>
+                    </properties>
+                  </component>
+                  <component id="9cd05" class="javax.swing.JLabel" binding="date">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="96167" binding="testDescription" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="fb3ea" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value="Повторить:    "/>
+                    </properties>
+                  </component>
+                  <component id="51c15" class="javax.swing.JLabel" binding="description">
+                    <constraints/>
+                    <properties>
+                      <enabled value="true"/>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="d4c65" binding="bottomControlButtons" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <autoscrolls value="true"/>
+          <background color="-20442"/>
+          <maximumSize width="40" height="40"/>
+          <minimumSize width="40" height="40"/>
+          <preferredSize width="40" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="7abaa" binding="needsForTommorow" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-20442"/>
+          <foreground color="-20442"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="9a577" binding="nearestNeed" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-20442"/>
+              <foreground color="-20442"/>
+              <preferredSize width="450" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1d48d" binding="homeWorkLabel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-20442"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="414c8" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="22" style="3"/>
+                      <foreground color="-60905"/>
+                      <horizontalAlignment value="0"/>
+                      <horizontalTextPosition value="0"/>
+                      <text value="Домашние работы на завтра"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="4bebb" binding="homeWorkNamePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e4e2" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <background color="-12828863"/>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value=" Контрольная: "/>
+                    </properties>
+                  </component>
+                  <component id="9e14b" class="javax.swing.JLabel" binding="homeWorkName">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="70e23" binding="homeWorkDate" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="cc7d3" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value=" Дата:                "/>
+                    </properties>
+                  </component>
+                  <component id="bac31" class="javax.swing.JLabel" binding="hwDate">
+                    <constraints/>
+                    <properties>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a87a7" binding="homeWorkDescription" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="80a42" class="javax.swing.JLabel">
+                    <constraints/>
+                    <properties>
+                      <font name="Arial Narrow" size="18" style="3"/>
+                      <foreground color="-60905"/>
+                      <text value="Повторить:    "/>
+                    </properties>
+                  </component>
+                  <component id="4cf" class="javax.swing.JLabel" binding="hwDescription">
+                    <constraints/>
+                    <properties>
+                      <enabled value="true"/>
+                      <font name="Times New Roman" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Label"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="f5be5" binding="centralPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-20442"/>
+          <foreground color="-20442"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
